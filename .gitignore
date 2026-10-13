@@ -1,0 +1,37 @@
+# Local operating-system and editor files
+.DS_Store
+.AppleDouble
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Credentials and local configuration must never enter this showcase
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+config.local.*
+credentials*
+secrets*
+
+# Local imports, logs, and generated output
+private/
+local/
+imports/
+node_modules/
+.cache/
+build/
+dist/
+coverage/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.dmg

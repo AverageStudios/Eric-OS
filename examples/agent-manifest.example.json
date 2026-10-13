@@ -1,0 +1,16 @@
+{
+  "id": "example-document-helper",
+  "name": "Example Document Helper",
+  "capabilities": [
+    "read_example_documents",
+    "summarize_example_documents"
+  ],
+  "allowed_job_types": [
+    "example.document_lookup",
+    "example.document_summary"
+  ],
+  "version": "0.0.1",
+  "enabled": false,
+  "example_only": true,
+  "description": "Fictional showcase manifest; not a production contract."
+}

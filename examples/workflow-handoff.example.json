@@ -1,0 +1,25 @@
+{
+  "workflow_id": "example-workflow-001",
+  "example_only": true,
+  "planner_assignment": {
+    "specialist_id": "example-document-helper",
+    "job_type": "example.document_lookup",
+    "objective": "Find the current product guide in the fictional example collection.",
+    "scope": "Read-only lookup of fictional documents; no outbound action."
+  },
+  "specialist_result": {
+    "status": "needs_clarification",
+    "summary": "Two fictional guides matched the request.",
+    "candidates": [
+      "example-guide-basic",
+      "example-guide-expanded"
+    ],
+    "uncertainty": "The requested edition is unspecified."
+  },
+  "next_planner_decision": {
+    "action": "request_human_input",
+    "question": "Should I use the basic or expanded example guide?",
+    "workflow_state": "waiting_for_input",
+    "outbound_action": "none"
+  }
+}
