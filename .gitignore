@@ -35,3 +35,6 @@ coverage/
 *.db
 *.zip
 *.dmg
+
+# Original screenshots contain private account details and metadata
+/showcase Images/

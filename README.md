@@ -10,6 +10,22 @@ Eric OS brings a central planner, focused specialists, and human approvals into 
 
 [Architecture](docs/ARCHITECTURE.md) · [Security](docs/SECURITY.md) · [Vision](docs/VISION.md) · [Roadmap](docs/ROADMAP.md)
 
+## A look at Eric OS
+
+These redacted interface previews show the web dashboard and Mac companion. Account details and internal runtime identifiers have been removed. Statuses reflect the captured interface; they do not establish that every integration is complete or ready for general deployment. Some desktop modes and statuses may be simulated.
+
+### Web dashboard
+
+Agent activity, enable/disable controls, and integration status in one view.
+
+![Eric OS web dashboard showing specialist agents and integration status](assets/screenshots/dashboard.png)
+
+### Mac desktop companion
+
+Local runtime health, startup status, and integration connectivity at a glance.
+
+<img src="assets/screenshots/desktop.png" alt="Eric OS Mac companion showing runtime and integration health, with internal identifiers redacted" width="480" />
+
 ## What is Eric OS?
 
 Eric OS is an application-level operating system for AI-assisted business work. A web dashboard provides visibility and review, a Mac desktop companion reports local health, and a local runtime executes bounded assignments.

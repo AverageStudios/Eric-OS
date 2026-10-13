@@ -6,13 +6,14 @@ Prepared October 13, 2026 for a public documentation repository. The intended re
 
 The source project was inspected read-only to understand architecture and distinguish implemented capabilities from ongoing work. All showcase prose was written for this repository. The JSON examples were authored independently with fictional identifiers and job types.
 
-No production implementation, private prompts, source screenshots, runtime artifacts, configuration exports, or operational runbooks were imported. The public materials include no credentials, private endpoints, personal contact details, client records, real communications, service identities, or security findings.
+No production implementation, private prompts, runtime artifacts, configuration exports, or operational runbooks were imported. The public UI previews are redacted copies of builder-provided screenshots; the originals are excluded from Git. Account details, internal identifiers, and image metadata were removed from the public copies. The public materials include no credentials, private endpoints, personal contact details, client records, real communications, service identities, or security findings.
 
 ## Review criteria
 
 - Review every public file for sensitive information, operational details, and unsupported claims.
 - Scan for credential patterns, contact details, private filesystem paths, hostnames, and identifiers.
 - Check for exact file copies or substantial verbatim overlap with private implementation material.
+- Inspect screenshot redactions and confirm exported images have no embedded metadata.
 - Parse both JSON examples and check internal consistency.
 - Check local Markdown links, the file inventory, and the absence of executable production code.
 - Inspect the initial Git commit and confirm that there is no remote or hidden imported history.
